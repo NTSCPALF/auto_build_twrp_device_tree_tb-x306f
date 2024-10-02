@@ -1,29 +1,29 @@
-# TWRP Device Tree生成工具
-- 这个工具怎么用？
-- 1.首先你要搞到你的设备任意一个可以开机系统的
-- boot.img AB分区 
-- recovery.img 除了AB分区以外的所有分区 
+# TWRP Device Tree Generation Tool
+- How to use this tool?
+ - 1. First, you need to get any bootable system of your device
+- boot.img AB partitions
+- recovery.img all partitions except AB partitions
 
 -----
 
-- 2.将这个仓库fork到你的用户名下
+- ​​2. Fork this repository to your username
 
 -----
 
-- 3.将recovery.img或boot.img上传至一个可以提供直链下载的位置，这里我推荐直接将img文件上传至这个仓库，然后点进去点view raw，来获取直链
+- ​​3. Upload recovery.img or boot.img to a location that can provide direct link download. Here I recommend uploading the img file directly to this repository, and then click in and click view raw to get the direct link
 
 -----
 
-- 4.点击actions － make twrp device － run workflow，然后在那个链接框里面输入你刚刚获取的直链
+- ​​4. Click actions - make twrp device - run workflow, and then enter the direct link you just got in the link box
 
 -----
 
- - 5、填写完成后点击 'Run workflow' 开始运行
+- ​​5. After filling in, click 'Run workflow' to start running
 
 -----
-## 编译结果
-- 可以在 [Release](../../releases) 下载
+## Compilation results
+- You can download it in [Release](../../releases)
 
-## 看不懂想要图文教程?
-- 看看隔壁那个用github编译twrp教程，与这个大同小异端
-- https://github.com/Xpsoted/Action-Recovery-builder/blob/main/README.md
+## Don't understand and want a graphic tutorial?
+- Take a look at the tutorial next door that uses github to compile twrp, which is similar to this one
+-  https://github.com/Xpsoted/Action-Recovery-builder/blob/main/README.md
